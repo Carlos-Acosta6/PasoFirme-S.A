@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PasoFirme S.A</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container navbar">
+      <div class="logo">
+        <span class="logo-accent">Paso</span>Firme
+      </div>
+
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <button class="cart-btn">
+        Carrito
+        <span class="cart-count">2</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="tag">Minimalismo · Rendimiento · Estilo</span>
+
+          <h1>
+            El calzado es la base de todo lo que hacemos.
+          </h1>
+
+          <p>
+            Diseño industrial moderno, materiales premium y una experiencia de compra
+            rápida, clara y enfocada en convertir visitantes en clientes.
+          </p>
+
+          <div class="hero-actions">
+            <button class="primary-btn">Explorar catálogo</button>
+            <button class="secondary-btn">Ver colección</button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="shoe-card">
+            <div class="badge">Nuevo</div>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop" alt="Zapato deportivo">
+            <div class="shoe-info">
+              <h3>PasoFirme Runner X</h3>
+              <p>Suela ergonómica · Tela transpirable</p>
+              <div class="price-row">
+                <span class="price">$129</span>
+                <button>Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="beneficios">
+      <div class="container grid-features">
+
+        <article class="feature">
+          <h3>Catálogo dinámico</h3>
+          <p>
+            Productos organizados de forma clara con información técnica precisa y visualmente limpia.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h3>Checkout rápido</h3>
+          <p>
+            Un flujo de compra pensado para reducir fricción y aumentar conversiones.
+          </p>
+        </article>
+
+        <article class="feature">
+          <h3>Gestión eficiente</h3>
+          <p>
+            Estructura lista para integrarse con sistemas de inventario y backend escalable.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-tag">Colección destacada</span>
+          <h2>Catálogo principal</h2>
+        </div>
+
+        <div class="catalog-grid" id="products-container">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter-box">
+        <div>
+          <span class="section-tag">Actualizaciones</span>
+          <h2>Mantente al día con PasoFirme</h2>
+        </div>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Correo electrónico">
+          <button type="submit">Suscribirme</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="container footer-content">
+
+      <div>
+        <div class="logo footer-logo">
+          <span class="logo-accent">Paso</span>Firme
+        </div>
+
+        <p>
+          Frontend preparado para escalabilidad, catálogo dinámico y experiencia de usuario moderna.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Términos</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Soporte</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
